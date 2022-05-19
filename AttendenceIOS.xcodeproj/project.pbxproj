@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28545687280D95C200FB8ADF /* introimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 28545686280D95C200FB8ADF /* introimg.png */; };
 		286C77B327FDC861002DCECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C77B227FDC861002DCECC /* AppDelegate.swift */; };
 		286C77B527FDC861002DCECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C77B427FDC861002DCECC /* SceneDelegate.swift */; };
 		286C77B727FDC861002DCECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C77B627FDC861002DCECC /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28545686280D95C200FB8ADF /* introimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = introimg.png; path = ../../../Desktop/introimg.png; sourceTree = "<group>"; };
 		286C77AF27FDC861002DCECC /* AttendenceIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendenceIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286C77B227FDC861002DCECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		286C77B427FDC861002DCECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		286C77B127FDC861002DCECC /* AttendenceIOS */ = {
 			isa = PBXGroup;
 			children = (
+				28545686280D95C200FB8ADF /* introimg.png */,
 				286C77B227FDC861002DCECC /* AppDelegate.swift */,
 				286C77B427FDC861002DCECC /* SceneDelegate.swift */,
 				286C77B627FDC861002DCECC /* ViewController.swift */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28545687280D95C200FB8ADF /* introimg.png in Resources */,
 				286C77BF27FDC861002DCECC /* LaunchScreen.storyboard in Resources */,
 				286C77BC27FDC861002DCECC /* Assets.xcassets in Resources */,
 				286C77BA27FDC861002DCECC /* Main.storyboard in Resources */,
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F3GHTJ3AB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AttendenceIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F3GHTJ3AB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AttendenceIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

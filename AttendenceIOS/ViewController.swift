@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIWebViewDelegate, WKNavigationDelegate,
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let url = URL(string: "http://172.30.1.40:8888/")
+        let url = URL(string: "http://dkdkdkdk555.cafe24.com/")
         let request = URLRequest(url: url!)
 
         webView.load(request)
