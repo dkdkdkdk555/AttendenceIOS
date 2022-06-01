@@ -93,6 +93,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "AttendenceIOS"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
