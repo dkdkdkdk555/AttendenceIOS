@@ -6,15 +6,40 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseMessaging
+import UserNotifications
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        sleep(3)
+        
+        // Firebase 초기화 <- 모듈가져오고 공유인스턴스 구성
+        FirebaseApp.configure()
+        
+        // [START set_messaging_delegate] 메세징 대리자 설정
+        Messaging.messaging().delegate = self
+        
+        /*
+          원격 알림 등록
+          
+          시작 시 또는 애플리케이션 흐름의 원하는 지점에서 원격 알림을 위해 앱을 등록합니다.
+          다음과 같이registerForRemoteNotifications 호출합니다.
+         */
+        UNUserNotificationCenter.current().delegate = self
+
+        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+        UNUserNotificationCenter.current().requestAuthorization(
+          options: authOptions,
+          completionHandler: { _, _ in }
+        )
+
+        application.registerForRemoteNotifications()
+        
         return true
     }
 
@@ -31,7 +56,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
 
 }
 

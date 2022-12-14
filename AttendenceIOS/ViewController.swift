@@ -7,6 +7,7 @@
 
 import UIKit
 import WebKit
+import FirebaseMessaging
 
 class ViewController: UIViewController, UIWebViewDelegate, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
 
@@ -38,7 +39,19 @@ class ViewController: UIViewController, UIWebViewDelegate, WKNavigationDelegate,
         let request = URLRequest(url: url!)
 
         webView.load(request)
+        
+        Messaging.messaging().token { token, error in
+          if let error = error {
+            print("Error fetching FCM registration token: \(error)")
+          } else if let token = token {
+            print("FCM registration token: \(token)")
+            self.showToast(message: token)
+          }
+        }
+        
     }
+    
+    
     
     // JS -> Native CALL
     @available(iOS 8.0, *)
