@@ -6,7 +6,7 @@ ukhyeon Park (weekcheck) establishes and discloses the following personal inform
 
 Article 1 (Purpose of processing personal information)
 
-The power of thought processes personal information for the following purposes: The personal information being processed will not be used for any purpose other than the following purposes, and necessary measures will be implemented, such as obtaining separate consent under Article 18 of the Privacy Act, when the purpose of use is changed.
+weekcheck processes personal information for the following purposes: The personal information being processed will not be used for any purpose other than the following purposes, and necessary measures will be implemented, such as obtaining separate consent under Article 18 of the Privacy Act, when the purpose of use is changed.
 
 1. Providing goods or services
 
@@ -34,7 +34,7 @@ Article 3 (Rights and obligations of the information subject and legal represent
 
 ① The information subject may exercise his/her right to access, correct, delete, and suspend the processing of personal information at any time.
 
-② The exercise of rights under paragraph (1) may be carried out in writing, e-mail, and FAX pursuant to Article 41 (1) of the Enforcement Decree of the Privacy Act, and Hellowook World will take measures without delay.
+② The exercise of rights under paragraph (1) may be carried out in writing, e-mail, and FAX pursuant to Article 41 (1) of the Enforcement Decree of the Privacy Act, and ukhyeon Park will take measures without delay.
 
 ③ The exercise of rights under paragraph (1) may be conducted through the legal representative of the information subject or through the representative of the delegated person.In such cases, "Notification on the Method of Processing Personal Information (No. 2020-7)" You must submit a power of attorney in attached Form 11.
 
